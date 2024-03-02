@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook cuccos",
+  "version": "1.0",
+  "description": "heha",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Facebook cuccos"
+  },
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  }
+}
