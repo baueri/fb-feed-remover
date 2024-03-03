@@ -1,0 +1,10 @@
+{
+    "6f95561c-d937-11ee-a02a-6f38a1d2bf4c": {
+        "addons": {
+        "updates": {
+            "version": "1.0",
+            "update_link": "https://raw.githubusercontent.com/baueri/fb-feed-remover/tree/v1.0/fb-feed-remomver.xpi"
+            }
+        }
+    }
+}
